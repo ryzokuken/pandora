@@ -15,7 +15,7 @@ def listen(recognizer, message='Say Something'):
         try:
             return recognizer.recognize_sphinx(audio).lower()
         except speech_recognition.UnknownValueError:
-            print("Alfred could not understand audio")
+            print("Pandora could not understand audio")
         except speech_recognition.RequestError as e:
             print("Sphinx error; {0}".format(e))
     except speech_recognition.RequestError as e:
