@@ -1,2 +1,2 @@
 # pandora
-A simple SL4A chatbot
+A simple speech-driven chatbot
